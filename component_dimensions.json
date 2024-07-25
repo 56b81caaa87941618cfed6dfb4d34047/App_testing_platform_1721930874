@@ -93,5 +93,23 @@
         "isDraggable": true,
         "isResizable": true,
         "name": ""
+    },
+    "blank_component_1721931131.js": {
+        "id": "blank_component-4438dce2-5006-a86d-0030-d4106569fcf3",
+        "name": "blank_component",
+        "type": "containerComponent",
+        "metadata": {},
+        "w": 12,
+        "h": 12,
+        "x": "100",
+        "y": "100",
+        "i": "__dropping-elem__",
+        "minW": 3,
+        "maxW": 12,
+        "minH": 1,
+        "moved": false,
+        "static": false,
+        "isDraggable": true,
+        "isResizable": true
     }
 }
