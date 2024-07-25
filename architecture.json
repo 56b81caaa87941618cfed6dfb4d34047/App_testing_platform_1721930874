@@ -1,1 +1,6 @@
-[]
+[
+    {
+        "level": 1,
+        "task_description": "generate afrontend for a uniswap style coin swap widget. include \"connect wallet\" button.  pink theme"
+    }
+]
