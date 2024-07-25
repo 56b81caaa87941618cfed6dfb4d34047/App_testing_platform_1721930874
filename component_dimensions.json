@@ -6,16 +6,17 @@
         "metadata": {},
         "w": 12,
         "h": 8,
-        "x": "50",
-        "y": "50",
-        "i": "__dropping-elem__",
+        "x": 0,
+        "y": 32,
+        "i": "4",
         "minW": 3,
         "maxW": 12,
         "minH": 1,
         "moved": false,
         "static": false,
         "isDraggable": true,
-        "isResizable": true
+        "isResizable": true,
+        "name": ""
     },
     "particle_component_1721930876.js": {
         "component_name": "particle_component",
@@ -24,16 +25,17 @@
         "metadata": {},
         "w": 12,
         "h": 8,
-        "x": "50",
-        "y": "50",
-        "i": "__dropping-elem__",
+        "x": 0,
+        "y": 16,
+        "i": "0",
         "minW": 3,
         "maxW": 12,
         "minH": 1,
         "moved": false,
         "static": false,
         "isDraggable": true,
-        "isResizable": true
+        "isResizable": true,
+        "name": ""
     },
     "purple_hero_component_1721930876.js": {
         "component_name": "purple_hero_component",
@@ -42,16 +44,17 @@
         "metadata": {},
         "w": 12,
         "h": 8,
-        "x": "100",
-        "y": "90",
-        "i": "__dropping-elem__",
+        "x": 0,
+        "y": 40,
+        "i": "3",
         "minW": 3,
         "maxW": 12,
         "minH": 1,
         "moved": false,
         "static": false,
         "isDraggable": true,
-        "isResizable": true
+        "isResizable": true,
+        "name": ""
     },
     "purple_feature_grid_component_1721930876.js": {
         "component_name": "purple_feature_grid_component",
@@ -60,16 +63,17 @@
         "metadata": {},
         "w": 12,
         "h": 8,
-        "x": "100",
-        "y": "50",
-        "i": "__dropping-elem__",
+        "x": 0,
+        "y": 24,
+        "i": "2",
         "minW": 3,
         "maxW": 12,
         "minH": 1,
         "moved": false,
         "static": false,
         "isDraggable": true,
-        "isResizable": true
+        "isResizable": true,
+        "name": ""
     },
     "purple_background_cta_component_1721930876.js": {
         "component_name": "purple_background_cta_component",
@@ -78,15 +82,16 @@
         "metadata": {},
         "w": 12,
         "h": 8,
-        "x": "100",
-        "y": "40",
-        "i": "__dropping-elem__",
+        "x": 0,
+        "y": 8,
+        "i": "1",
         "minW": 3,
         "maxW": 12,
         "minH": 1,
         "moved": false,
         "static": false,
         "isDraggable": true,
-        "isResizable": true
+        "isResizable": true,
+        "name": ""
     }
 }
