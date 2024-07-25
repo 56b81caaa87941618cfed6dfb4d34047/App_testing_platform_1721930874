@@ -16,19 +16,19 @@ Vue.component("blank_component_1721931131", {
         <div>
             <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
             <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-            <section id="blank-section" class="bg-white dark:bg-gray-900 flex-1">
+            <section id="blank-section" class="bg-gradient-to-r from-blue-900 to-purple-900 flex-1">
                 <div id="blank-container" class="max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
-                    <div class="flex-1 max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+                    <div class="flex-1 max-w-md mx-auto bg-gradient-to-br from-blue-800 to-purple-800 rounded-xl shadow-lg shadow-purple-500/50 overflow-hidden md:max-w-2xl">
                         <div class="p-8">
                             <div class="flex justify-between items-center mb-6">
-                                <h2 class="text-2xl font-bold text-pink-600">Swap</h2>
-                                <button @click="connectWallet" class="px-4 py-2 bg-pink-500 text-white rounded-lg hover:bg-pink-600 transition duration-300">Connect Wallet</button>
+                                <h2 class="text-2xl font-bold text-white">Swap</h2>
+                                <button @click="connectWallet" class="px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:from-blue-700 hover:to-purple-700 transition duration-300 shadow-md">Connect Wallet</button>
                             </div>
                             <div class="mb-4">
-                                <label class="block text-gray-700 text-sm font-bold mb-2" for="fromToken">From</label>
-                                <div class="flex items-center border-2 border-pink-300 rounded-lg p-2">
-                                    <input id="fromToken" type="number" v-model="fromAmount" class="w-full focus:outline-none" placeholder="0.0">
-                                    <select v-model="fromToken" class="ml-2 bg-pink-100 rounded p-1">
+                                <label class="block text-white text-sm font-bold mb-2" for="fromToken">From</label>
+                                <div class="flex items-center border-2 border-purple-400 rounded-lg p-2 bg-blue-900 bg-opacity-50">
+                                    <input id="fromToken" type="number" v-model="fromAmount" class="w-full bg-transparent text-white focus:outline-none" placeholder="0.0">
+                                    <select v-model="fromToken" class="ml-2 bg-purple-700 text-white rounded p-1">
                                         <option value="ETH">ETH</option>
                                         <option value="DAI">DAI</option>
                                         <option value="USDC">USDC</option>
@@ -36,22 +36,22 @@ Vue.component("blank_component_1721931131", {
                                 </div>
                             </div>
                             <div class="mb-4 flex justify-center">
-                                <button @click="swapTokens" class="p-2 bg-pink-200 rounded-full hover:bg-pink-300 transition duration-300">
-                                    <i class='bx bx-transfer-alt text-2xl text-pink-600'></i>
+                                <button @click="swapTokens" class="p-2 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full hover:from-blue-600 hover:to-purple-600 transition duration-300 shadow-md">
+                                    <i class='bx bx-transfer-alt text-2xl text-white'></i>
                                 </button>
                             </div>
                             <div class="mb-6">
-                                <label class="block text-gray-700 text-sm font-bold mb-2" for="toToken">To</label>
-                                <div class="flex items-center border-2 border-pink-300 rounded-lg p-2">
-                                    <input id="toToken" type="number" v-model="toAmount" class="w-full focus:outline-none" placeholder="0.0" readonly>
-                                    <select v-model="toToken" class="ml-2 bg-pink-100 rounded p-1">
+                                <label class="block text-white text-sm font-bold mb-2" for="toToken">To</label>
+                                <div class="flex items-center border-2 border-purple-400 rounded-lg p-2 bg-blue-900 bg-opacity-50">
+                                    <input id="toToken" type="number" v-model="toAmount" class="w-full bg-transparent text-white focus:outline-none" placeholder="0.0" readonly>
+                                    <select v-model="toToken" class="ml-2 bg-purple-700 text-white rounded p-1">
                                         <option value="ETH">ETH</option>
                                         <option value="DAI">DAI</option>
                                         <option value="USDC">USDC</option>
                                     </select>
                                 </div>
                             </div>
-                            <button @click="swap" class="w-full bg-pink-500 text-white font-bold py-2 px-4 rounded-lg hover:bg-pink-600 transition duration-300">Swap</button>
+                            <button @click="swap" class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold py-2 px-4 rounded-lg hover:from-blue-700 hover:to-purple-700 transition duration-300 shadow-md">Swap</button>
                         </div>
                     </div>
                 </div>
