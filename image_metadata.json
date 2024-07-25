@@ -1,0 +1,8 @@
+{
+    "logo.svg": {
+        "filepath": "../static/img/tester_for_scott_this_is_the_logo_for_the_application_used_in_the_form_of_a_favicon.jpeg"
+    },
+    "hero.png": {
+        "filepath": "../static/img/tester_for_scott_this_is_main_image_on_the_home_page_that_introduces_the_websites_key_features_and_offerings.jpeg"
+    }
+}
