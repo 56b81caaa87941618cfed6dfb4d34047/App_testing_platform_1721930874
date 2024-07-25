@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you prefer the 'connect wallet' button to be prominently displayed at all times or integrated within the swap widget interface for a more streamlined look?\", \"option1\": \"Prominently displayed at all times\", \"option2\": \"Integrated within the swap widget interface\"}, {\"question 2\": \"For the pink theme, are you envisioning a light, pastel pink color scheme for a softer aesthetic or a vibrant, deep pink for a more dynamic look?\", \"option1\": \"Light, pastel pink\", \"option2\": \"Vibrant, deep pink\"}], \"input_token_count\": 273, \"output_token_count\": 130, \"time_taken\": \"0:00:17.476999\"}",
+        "message_id": "guest25072024181256",
+        "timestamp": "25072024181315",
+        "component_file_name": "blank_component_1721931131",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_ui_checklist",
         "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Real-time crypto price tracker\", \"checked\": true}, {\"feature\": \"Swap history records for user\", \"checked\": false}, {\"feature\": \"Liquidity pool information display\", \"checked\": true}, {\"feature\": \"User profile customization options\", \"checked\": false}, {\"feature\": \"Theme toggle between light and dark mode\", \"checked\": true}, {\"feature\": \"Notification alerts for successful swaps\", \"checked\": true}], \"input_token_count\": 227, \"output_token_count\": 105, \"time_taken\": \"0:00:15.102751\"}",
         "message_id": "guest25072024181256",
