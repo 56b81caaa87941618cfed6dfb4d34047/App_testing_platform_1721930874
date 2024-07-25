@@ -1,5 +1,14 @@
 [
     {
+        "role": "user",
+        "content": "generate afrontend for a uniswap style coin swap widget. include \"connect wallet\" button.  pink theme",
+        "message_id": "guest25072024181256",
+        "timestamp": "25072024181256",
+        "component_file_name": "blank_component_1721931131",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "makeinfinite",
         "content": "Can you describe the project a bit more?",
         "message_id": "project_init",
