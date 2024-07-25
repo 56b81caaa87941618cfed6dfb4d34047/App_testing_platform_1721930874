@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Real-time crypto price tracker\", \"checked\": true}, {\"feature\": \"Swap history records for user\", \"checked\": false}, {\"feature\": \"Liquidity pool information display\", \"checked\": true}, {\"feature\": \"User profile customization options\", \"checked\": false}, {\"feature\": \"Theme toggle between light and dark mode\", \"checked\": true}, {\"feature\": \"Notification alerts for successful swaps\", \"checked\": true}], \"input_token_count\": 227, \"output_token_count\": 105, \"time_taken\": \"0:00:15.102751\"}",
+        "message_id": "guest25072024181256",
+        "timestamp": "25072024181313",
+        "component_file_name": "blank_component_1721931131",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Great! We are working on developing a pink themed frontend with a \"connect wallet\" button for your coin swap widget in the style of uniswap.",
         "message_id": "guest25072024181256",
