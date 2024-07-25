@@ -12,5 +12,11 @@
         "content": "generate afrontend for a uniswap style coin swap widget. include \"connect wallet\" button.  pink theme",
         "timestamp": "25072024181256",
         "message_id": "guest25072024181256"
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Great! We are working on developing a pink themed frontend with a \"connect wallet\" button for your coin swap widget in the style of uniswap.",
+        "timestamp": "25072024181256",
+        "message_id": "guest25072024181256"
     }
 ]
